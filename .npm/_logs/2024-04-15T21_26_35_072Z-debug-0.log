@@ -1,0 +1,434 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Fernando Lopez\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.5.2
+2 info using node@v18.17.0
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\Fernando Lopez\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\Fernando Lopez\Desktop\repo\synco\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:C:\Users\Fernando Lopez\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\Fernando Lopez\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 14ms
+17 timing npm:load:configload Completed in 14ms
+18 timing config:load:flatten Completed in 4ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm ci
+22 verbose argv "ci" "--cache" ".npm" "--prefer-offline"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:C:\Users\Fernando Lopez\Desktop\repo\synco\.npm\_logs\2024-04-15T21_26_35_072Z-
+26 verbose logfile C:\Users\Fernando Lopez\Desktop\repo\synco\.npm\_logs\2024-04-15T21_26_35_072Z-debug-0.log
+27 timing npm:load:logFile Completed in 4ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 73ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 1019ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 1ms
+37 silly fetch manifest react@~0.14.8 || ^15.0.0 || ^16.0.0
+38 http fetch GET 200 https://registry.npmjs.org/react 368ms (cache miss)
+39 silly fetch manifest react-dom@~0.14.8 || ^15.0.0 || ^16.0.0
+40 http fetch GET 200 https://registry.npmjs.org/react-dom 399ms (cache miss)
+41 warn ERESOLVE overriding peer dependency {
+41 warn ERESOLVE   code: 'ERESOLVE',
+41 warn ERESOLVE   edge: {
+41 warn ERESOLVE     type: 'peer',
+41 warn ERESOLVE     name: 'react',
+41 warn ERESOLVE     spec: '~0.14.8 || ^15.0.0 || ^16.0.0',
+41 warn ERESOLVE     error: 'INVALID',
+41 warn ERESOLVE     from: {
+41 warn ERESOLVE       name: 'google-maps-react',
+41 warn ERESOLVE       version: '2.0.6',
+41 warn ERESOLVE       location: 'node_modules/google-maps-react',
+41 warn ERESOLVE       isWorkspace: false,
+41 warn ERESOLVE       dependents: [Array]
+41 warn ERESOLVE     }
+41 warn ERESOLVE   },
+41 warn ERESOLVE   dep: {
+41 warn ERESOLVE     name: 'react',
+41 warn ERESOLVE     version: '16.14.0',
+41 warn ERESOLVE     whileInstalling: {
+41 warn ERESOLVE       name: 'google-maps-react',
+41 warn ERESOLVE       version: '2.0.6',
+41 warn ERESOLVE       path: 'C:\\Users\\Fernando Lopez\\Desktop\\repo\\synco\\node_modules\\google-maps-react'
+41 warn ERESOLVE     },
+41 warn ERESOLVE     location: 'node_modules/react',
+41 warn ERESOLVE     isWorkspace: false,
+41 warn ERESOLVE     dependents: [ [Object] ]
+41 warn ERESOLVE   },
+41 warn ERESOLVE   force: false,
+41 warn ERESOLVE   isMine: false,
+41 warn ERESOLVE   strictPeerDeps: false,
+41 warn ERESOLVE   current: {
+41 warn ERESOLVE     name: 'react',
+41 warn ERESOLVE     version: '18.2.0',
+41 warn ERESOLVE     location: 'node_modules/react',
+41 warn ERESOLVE     isWorkspace: false,
+41 warn ERESOLVE     dependents: [
+41 warn ERESOLVE       [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object]
+41 warn ERESOLVE     ]
+41 warn ERESOLVE   },
+41 warn ERESOLVE   peerConflict: {
+41 warn ERESOLVE     current: {
+41 warn ERESOLVE       name: 'react',
+41 warn ERESOLVE       version: '18.2.0',
+41 warn ERESOLVE       location: 'node_modules/react',
+41 warn ERESOLVE       isWorkspace: false,
+41 warn ERESOLVE       dependents: [Array]
+41 warn ERESOLVE     },
+41 warn ERESOLVE     peer: {
+41 warn ERESOLVE       name: 'react',
+41 warn ERESOLVE       version: '16.14.0',
+41 warn ERESOLVE       whileInstalling: [Object],
+41 warn ERESOLVE       location: 'node_modules/react',
+41 warn ERESOLVE       isWorkspace: false,
+41 warn ERESOLVE       dependents: [Array]
+41 warn ERESOLVE     }
+41 warn ERESOLVE   }
+41 warn ERESOLVE }
+42 warn ERESOLVE overriding peer dependency {
+42 warn ERESOLVE   code: 'ERESOLVE',
+42 warn ERESOLVE   edge: {
+42 warn ERESOLVE     type: 'peer',
+42 warn ERESOLVE     name: 'react-dom',
+42 warn ERESOLVE     spec: '~0.14.8 || ^15.0.0 || ^16.0.0',
+42 warn ERESOLVE     error: 'INVALID',
+42 warn ERESOLVE     from: {
+42 warn ERESOLVE       name: 'google-maps-react',
+42 warn ERESOLVE       version: '2.0.6',
+42 warn ERESOLVE       location: 'node_modules/google-maps-react',
+42 warn ERESOLVE       isWorkspace: false,
+42 warn ERESOLVE       dependents: [Array]
+42 warn ERESOLVE     }
+42 warn ERESOLVE   },
+42 warn ERESOLVE   dep: {
+42 warn ERESOLVE     name: 'react-dom',
+42 warn ERESOLVE     version: '16.14.0',
+42 warn ERESOLVE     whileInstalling: {
+42 warn ERESOLVE       name: 'google-maps-react',
+42 warn ERESOLVE       version: '2.0.6',
+42 warn ERESOLVE       path: 'C:\\Users\\Fernando Lopez\\Desktop\\repo\\synco\\node_modules\\google-maps-react'
+42 warn ERESOLVE     },
+42 warn ERESOLVE     location: 'node_modules/react-dom',
+42 warn ERESOLVE     isWorkspace: false,
+42 warn ERESOLVE     dependents: [ [Object] ]
+42 warn ERESOLVE   },
+42 warn ERESOLVE   force: false,
+42 warn ERESOLVE   isMine: false,
+42 warn ERESOLVE   strictPeerDeps: false,
+42 warn ERESOLVE   current: {
+42 warn ERESOLVE     name: 'react-dom',
+42 warn ERESOLVE     version: '18.2.0',
+42 warn ERESOLVE     location: 'node_modules/react-dom',
+42 warn ERESOLVE     isWorkspace: false,
+42 warn ERESOLVE     dependents: [
+42 warn ERESOLVE       [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object]
+42 warn ERESOLVE     ]
+42 warn ERESOLVE   },
+42 warn ERESOLVE   peerConflict: {
+42 warn ERESOLVE     current: {
+42 warn ERESOLVE       name: 'react-dom',
+42 warn ERESOLVE       version: '18.2.0',
+42 warn ERESOLVE       location: 'node_modules/react-dom',
+42 warn ERESOLVE       isWorkspace: false,
+42 warn ERESOLVE       dependents: [Array]
+42 warn ERESOLVE     },
+42 warn ERESOLVE     peer: {
+42 warn ERESOLVE       name: 'react-dom',
+42 warn ERESOLVE       version: '16.14.0',
+42 warn ERESOLVE       whileInstalling: [Object],
+42 warn ERESOLVE       location: 'node_modules/react-dom',
+42 warn ERESOLVE       isWorkspace: false,
+42 warn ERESOLVE       dependents: [Array]
+42 warn ERESOLVE     }
+42 warn ERESOLVE   }
+42 warn ERESOLVE }
+43 timing idealTree:node_modules/google-maps-react Completed in 1057ms
+44 silly fetch manifest react@^16.9.0
+45 silly fetch manifest react-dom@^16.9.0
+46 warn ERESOLVE overriding peer dependency {
+46 warn ERESOLVE   code: 'ERESOLVE',
+46 warn ERESOLVE   edge: {
+46 warn ERESOLVE     type: 'peer',
+46 warn ERESOLVE     name: 'react',
+46 warn ERESOLVE     spec: '^16.9.0',
+46 warn ERESOLVE     error: 'INVALID',
+46 warn ERESOLVE     from: {
+46 warn ERESOLVE       name: 'react-datepicker',
+46 warn ERESOLVE       version: '2.16.0',
+46 warn ERESOLVE       location: 'node_modules/react-datepicker',
+46 warn ERESOLVE       isWorkspace: false,
+46 warn ERESOLVE       dependents: [Array]
+46 warn ERESOLVE     }
+46 warn ERESOLVE   },
+46 warn ERESOLVE   dep: {
+46 warn ERESOLVE     name: 'react',
+46 warn ERESOLVE     version: '16.14.0',
+46 warn ERESOLVE     whileInstalling: {
+46 warn ERESOLVE       name: 'react-datepicker',
+46 warn ERESOLVE       version: '2.16.0',
+46 warn ERESOLVE       path: 'C:\\Users\\Fernando Lopez\\Desktop\\repo\\synco\\node_modules\\react-datepicker'
+46 warn ERESOLVE     },
+46 warn ERESOLVE     location: 'node_modules/react',
+46 warn ERESOLVE     isWorkspace: false,
+46 warn ERESOLVE     dependents: [ [Object] ]
+46 warn ERESOLVE   },
+46 warn ERESOLVE   force: false,
+46 warn ERESOLVE   isMine: false,
+46 warn ERESOLVE   strictPeerDeps: false,
+46 warn ERESOLVE   current: {
+46 warn ERESOLVE     name: 'react',
+46 warn ERESOLVE     version: '18.2.0',
+46 warn ERESOLVE     location: 'node_modules/react',
+46 warn ERESOLVE     isWorkspace: false,
+46 warn ERESOLVE     dependents: [
+46 warn ERESOLVE       [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object]
+46 warn ERESOLVE     ]
+46 warn ERESOLVE   },
+46 warn ERESOLVE   peerConflict: {
+46 warn ERESOLVE     current: {
+46 warn ERESOLVE       name: 'react',
+46 warn ERESOLVE       version: '18.2.0',
+46 warn ERESOLVE       location: 'node_modules/react',
+46 warn ERESOLVE       isWorkspace: false,
+46 warn ERESOLVE       dependents: [Array]
+46 warn ERESOLVE     },
+46 warn ERESOLVE     peer: {
+46 warn ERESOLVE       name: 'react',
+46 warn ERESOLVE       version: '16.14.0',
+46 warn ERESOLVE       whileInstalling: [Object],
+46 warn ERESOLVE       location: 'node_modules/react',
+46 warn ERESOLVE       isWorkspace: false,
+46 warn ERESOLVE       dependents: [Array]
+46 warn ERESOLVE     }
+46 warn ERESOLVE   }
+46 warn ERESOLVE }
+47 warn ERESOLVE overriding peer dependency {
+47 warn ERESOLVE   code: 'ERESOLVE',
+47 warn ERESOLVE   edge: {
+47 warn ERESOLVE     type: 'peer',
+47 warn ERESOLVE     name: 'react-dom',
+47 warn ERESOLVE     spec: '^16.9.0',
+47 warn ERESOLVE     error: 'INVALID',
+47 warn ERESOLVE     from: {
+47 warn ERESOLVE       name: 'react-datepicker',
+47 warn ERESOLVE       version: '2.16.0',
+47 warn ERESOLVE       location: 'node_modules/react-datepicker',
+47 warn ERESOLVE       isWorkspace: false,
+47 warn ERESOLVE       dependents: [Array]
+47 warn ERESOLVE     }
+47 warn ERESOLVE   },
+47 warn ERESOLVE   dep: {
+47 warn ERESOLVE     name: 'react-dom',
+47 warn ERESOLVE     version: '16.14.0',
+47 warn ERESOLVE     whileInstalling: {
+47 warn ERESOLVE       name: 'react-datepicker',
+47 warn ERESOLVE       version: '2.16.0',
+47 warn ERESOLVE       path: 'C:\\Users\\Fernando Lopez\\Desktop\\repo\\synco\\node_modules\\react-datepicker'
+47 warn ERESOLVE     },
+47 warn ERESOLVE     location: 'node_modules/react-dom',
+47 warn ERESOLVE     isWorkspace: false,
+47 warn ERESOLVE     dependents: [ [Object] ]
+47 warn ERESOLVE   },
+47 warn ERESOLVE   force: false,
+47 warn ERESOLVE   isMine: false,
+47 warn ERESOLVE   strictPeerDeps: false,
+47 warn ERESOLVE   current: {
+47 warn ERESOLVE     name: 'react-dom',
+47 warn ERESOLVE     version: '18.2.0',
+47 warn ERESOLVE     location: 'node_modules/react-dom',
+47 warn ERESOLVE     isWorkspace: false,
+47 warn ERESOLVE     dependents: [
+47 warn ERESOLVE       [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object]
+47 warn ERESOLVE     ]
+47 warn ERESOLVE   },
+47 warn ERESOLVE   peerConflict: {
+47 warn ERESOLVE     current: {
+47 warn ERESOLVE       name: 'react-dom',
+47 warn ERESOLVE       version: '18.2.0',
+47 warn ERESOLVE       location: 'node_modules/react-dom',
+47 warn ERESOLVE       isWorkspace: false,
+47 warn ERESOLVE       dependents: [Array]
+47 warn ERESOLVE     },
+47 warn ERESOLVE     peer: {
+47 warn ERESOLVE       name: 'react-dom',
+47 warn ERESOLVE       version: '16.14.0',
+47 warn ERESOLVE       whileInstalling: [Object],
+47 warn ERESOLVE       location: 'node_modules/react-dom',
+47 warn ERESOLVE       isWorkspace: false,
+47 warn ERESOLVE       dependents: [Array]
+47 warn ERESOLVE     }
+47 warn ERESOLVE   }
+47 warn ERESOLVE }
+48 timing idealTree:node_modules/react-datepicker Completed in 91ms
+49 silly fetch manifest typescript@^3.2.1 || ^4
+50 http fetch GET 200 https://registry.npmjs.org/typescript 598ms (cache miss)
+51 silly placeDep ROOT typescript@4.9.5 REPLACE for: react-scripts@5.0.1 want: ^3.2.1 || ^4
+52 timing idealTree:node_modules/react-scripts Completed in 1111ms
+53 timing idealTree:node_modules/typescript Completed in 0ms
+54 silly fetch manifest react@0.14.x || ^15.0.0 || ^16.0.0 || ^17.0.0
+55 warn ERESOLVE overriding peer dependency {
+55 warn ERESOLVE   code: 'ERESOLVE',
+55 warn ERESOLVE   edge: {
+55 warn ERESOLVE     type: 'peer',
+55 warn ERESOLVE     name: 'react',
+55 warn ERESOLVE     spec: '0.14.x || ^15.0.0 || ^16.0.0 || ^17.0.0',
+55 warn ERESOLVE     error: 'INVALID',
+55 warn ERESOLVE     from: {
+55 warn ERESOLVE       name: 'react-popper',
+55 warn ERESOLVE       version: '1.3.11',
+55 warn ERESOLVE       location: 'node_modules/react-datepicker/node_modules/react-popper',
+55 warn ERESOLVE       isWorkspace: false,
+55 warn ERESOLVE       dependents: [Array]
+55 warn ERESOLVE     }
+55 warn ERESOLVE   },
+55 warn ERESOLVE   dep: {
+55 warn ERESOLVE     name: 'react',
+55 warn ERESOLVE     version: '17.0.2',
+55 warn ERESOLVE     whileInstalling: {
+55 warn ERESOLVE       name: 'react-popper',
+55 warn ERESOLVE       version: '1.3.11',
+55 warn ERESOLVE       path: 'C:\\Users\\Fernando Lopez\\Desktop\\repo\\synco\\node_modules\\react-datepicker\\node_modules\\react-popper'
+55 warn ERESOLVE     },
+55 warn ERESOLVE     location: 'node_modules/react',
+55 warn ERESOLVE     isWorkspace: false,
+55 warn ERESOLVE     dependents: [ [Object] ]
+55 warn ERESOLVE   },
+55 warn ERESOLVE   force: false,
+55 warn ERESOLVE   isMine: false,
+55 warn ERESOLVE   strictPeerDeps: false,
+55 warn ERESOLVE   current: {
+55 warn ERESOLVE     name: 'react',
+55 warn ERESOLVE     version: '18.2.0',
+55 warn ERESOLVE     location: 'node_modules/react',
+55 warn ERESOLVE     isWorkspace: false,
+55 warn ERESOLVE     dependents: [
+55 warn ERESOLVE       [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object]
+55 warn ERESOLVE     ]
+55 warn ERESOLVE   },
+55 warn ERESOLVE   peerConflict: {
+55 warn ERESOLVE     current: {
+55 warn ERESOLVE       name: 'react',
+55 warn ERESOLVE       version: '18.2.0',
+55 warn ERESOLVE       location: 'node_modules/react',
+55 warn ERESOLVE       isWorkspace: false,
+55 warn ERESOLVE       dependents: [Array]
+55 warn ERESOLVE     },
+55 warn ERESOLVE     peer: {
+55 warn ERESOLVE       name: 'react',
+55 warn ERESOLVE       version: '17.0.2',
+55 warn ERESOLVE       whileInstalling: [Object],
+55 warn ERESOLVE       location: 'node_modules/react',
+55 warn ERESOLVE       isWorkspace: false,
+55 warn ERESOLVE       dependents: [Array]
+55 warn ERESOLVE     }
+55 warn ERESOLVE   }
+55 warn ERESOLVE }
+56 timing idealTree:node_modules/react-datepicker/node_modules/react-popper Completed in 194ms
+57 timing idealTree:buildDeps Completed in 2455ms
+58 timing idealTree:fixDepFlags Completed in 84ms
+59 timing idealTree Completed in 3587ms
+60 timing command:ci Completed in 4745ms
+61 verbose stack Error: 
+61 verbose stack `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+61 verbose stack
+61 verbose stack Invalid: lock file's typescript@5.4.5 does not satisfy typescript@4.9.5
+61 verbose stack
+61 verbose stack Clean install a project
+61 verbose stack
+61 verbose stack Usage:
+61 verbose stack npm ci
+61 verbose stack
+61 verbose stack Options:
+61 verbose stack [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+61 verbose stack [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+61 verbose stack [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+61 verbose stack [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]
+61 verbose stack [--no-bin-links] [--no-fund] [--dry-run]
+61 verbose stack [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+61 verbose stack [-ws|--workspaces] [--include-workspace-root] [--install-links]
+61 verbose stack
+61 verbose stack aliases: clean-install, ic, install-clean, isntall-clean
+61 verbose stack
+61 verbose stack Run "npm help ci" for more info
+61 verbose stack     at CI.usageError (C:\Users\Fernando Lopez\AppData\Roaming\npm\node_modules\npm\lib\base-command.js:113:26)
+61 verbose stack     at CI.exec (C:\Users\Fernando Lopez\AppData\Roaming\npm\node_modules\npm\lib\commands\ci.js:69:18)
+61 verbose stack     at async module.exports (C:\Users\Fernando Lopez\AppData\Roaming\npm\node_modules\npm\lib\cli-entry.js:61:5)
+62 verbose cwd C:\Users\Fernando Lopez\Desktop\repo\synco
+63 verbose Windows_NT 10.0.22631
+64 verbose node v18.17.0
+65 verbose npm  v10.5.2
+66 error code EUSAGE
+67 error
+67 error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+67 error
+67 error Invalid: lock file's typescript@5.4.5 does not satisfy typescript@4.9.5
+67 error
+67 error Clean install a project
+67 error
+67 error Usage:
+67 error npm ci
+67 error
+67 error Options:
+67 error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+67 error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+67 error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+67 error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]
+67 error [--no-bin-links] [--no-fund] [--dry-run]
+67 error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+67 error [-ws|--workspaces] [--include-workspace-root] [--install-links]
+67 error
+67 error aliases: clean-install, ic, install-clean, isntall-clean
+67 error
+67 error Run "npm help ci" for more info
+68 verbose exit 1
+69 timing npm Completed in 5754ms
+70 verbose code 1
+71 error A complete log of this run can be found in: C:\Users\Fernando Lopez\Desktop\repo\synco\.npm\_logs\2024-04-15T21_26_35_072Z-debug-0.log
