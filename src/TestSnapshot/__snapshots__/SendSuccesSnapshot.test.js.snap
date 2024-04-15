@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Send snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="sm:ml-0 sm:mr-0 ml-24 mr-50 pt-4  pl-2 pr-2 xl:pl-12 "
+    >
+      <div
+        class="flex flex-col"
+      >
+        <div>
+          <img
+            class="block m-auto"
+            src="succes_onboarding.png"
+          />
+        </div>
+        <div
+          class="text-center"
+        >
+          <label
+            class="text-center text-28 text-leon"
+          >
+            ¡Tu solicitud fue enviada con exito!
+          </label>
+        </div>
+        <div>
+          <div
+            class="flex flex-row-reverse"
+          >
+            <div>
+              <button
+                class="btn button-styles mb-12 mr-12 text-blanco bg-queretaro rounded-rbutton text-16 dark:bg-aguascalientes dark:text-negro"
+              >
+                Entendido
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

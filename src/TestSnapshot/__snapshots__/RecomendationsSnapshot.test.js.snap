@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Recomendations snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="sm:ml-0 sm:mr-0 ml-24 mr-50 pt-4  pl-2 pr-2 xl:pl-12 "
+    >
+      <div
+        class="card shadow-sm p-3 mb-6 rounded-boxer "
+      >
+        <p
+          class="text-20 text-bajio font-semibold"
+        >
+          ¿Cómo debe ser la imagen?
+        </p>
+        <div
+          class="mt-3 mb-3"
+        >
+          <img
+            class="block m-auto"
+            src="selfie_m.svg"
+          />
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <div>
+            <div
+              class="inline-flex"
+            >
+              <div
+                class=""
+              >
+                <img
+                  class="w-10 h-10"
+                  src="icon_1_selfie.svg"
+                  style="max-width: none;"
+                />
+              </div>
+              <div
+                class="text-16 font-semibold"
+              >
+                <label
+                  class="mt-2"
+                >
+                   Toma la foto con tu cámara frontal
+                </label>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="inline-flex"
+            >
+              <div
+                class=""
+              >
+                <img
+                  class="w-10 h-10"
+                  src="icon_2_selfie.svg"
+                  style="max-width: none;"
+                />
+              </div>
+              <div
+                class="text-16 font-semibold"
+              >
+                <label
+                  class="mt-2"
+                >
+                  Mantén tu dispositivo a la altura de los ojos y mira a la cámara
+                </label>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="inline-flex"
+            >
+              <div
+                class=""
+              >
+                <img
+                  class="w-10 h-10"
+                  src="icon_3_selfie.svg"
+                  style="max-width: none;"
+                />
+              </div>
+              <div
+                class="text-16 font-semibold"
+              >
+                <label
+                  class="mt-2"
+                >
+                  Al finalizar asegúrate de que tu rostro está dentro del borde
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-row-reverse sm:mt-5"
+        >
+          <div>
+            <div
+              class="relative h-20 w-32"
+            >
+              <div
+                class="absolute bottom-0 right-0 h-16 w-40"
+              >
+                <button
+                  class="btn button-styles mb-12  text-blanco bg-primarymeta rounded-rbutton text-16 dark:bg-aguascalientes dark:text-negro"
+                >
+                  ENTENDIDO
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

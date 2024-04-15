@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Domicilio snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="sm:p-5 p-10"
+    >
+      <div
+        class="card shadow-sm h-auto"
+      >
+        <div
+          class="inline-flex ml-3 mr-2 sm:space-x-0 md:space-x-4 xl:space-x-4 xl2:space-x-4 xl3:space-x-4"
+        >
+          <div
+            class="sm:w-28 text-12 text-bajio80 mt-3 ml-2"
+          >
+            Paso 1 de 5
+          </div>
+          <div
+            class="w-72"
+          >
+            <div
+              class="progress h-2 mt-4 mr-3"
+            >
+              <div
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="25"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 20%;"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <label
+            class="mt-8 ml-4  text-16 text-left  text-primarymeta dark:text-bajio20"
+          >
+            Verificación de identidad
+          </label>
+        </div>
+        <div
+          class="grid grid-cols-1 gap-1 mt-6"
+        >
+          <div>
+            <div
+              class="block w-36 h-36 border-dashed border-4 border-light-blue-500  rounded-boxer m-auto bg-bajio20p"
+            >
+              <img
+                alt="Agregar"
+                class="block m-auto mt-12"
+                src="btnBloss.svg"
+              />
+              
+              <div
+                class="sm:relative md:hidden xl:hidden xl2:hidden xl3:hidden -mt-24 opacity-0 mb-4"
+              >
+                <button
+                  class="btn bg-queretaro block w-36 h-36"
+                >
+                  Click
+                </button>
+              </div>
+              <div
+                class="sm:hidden md:relative xl:relative xl2:relative xl3:relative  -mt-14"
+              >
+                <div
+                  class="dzu-dropzone"
+                  style="min-height: 120px; max-height: 120px; z-index: 99; opacity: 0;"
+                >
+                  <label
+                    class="dzu-inputLabel"
+                  >
+                    Tomar o seleccionar fotografía
+                    <input
+                      accept="image/*"
+                      class="dzu-input"
+                      type="file"
+                    />
+                  </label>
+                </div>
+              </div>
+              <label
+                class="text-14 text-bajio60 text-left mb-4"
+              >
+                <label>
+                  <div
+                    class="inline-flex space-x-4"
+                  >
+                    <div
+                      class=""
+                    >
+                      Selfie
+                    </div>
+                    <div
+                      class="-mt-1"
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </label>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 gap-1 mt-10"
+        >
+          <div />
+        </div>
+        
+        <div
+          class="flex flex-row-reverse mt-5"
+        >
+          <div>
+            <div
+              class="relative h-20 w-32"
+            >
+              <div
+                class="absolute bottom-0 right-0 h-16 w-28"
+              >
+                <button
+                  class=" btn button-styles mb-12 mr-3 text-blanco bg-bajio20 rounded-rbutton text-16 dark:bg-aguascalientes dark:text-negro"
+                >
+                  Guardar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

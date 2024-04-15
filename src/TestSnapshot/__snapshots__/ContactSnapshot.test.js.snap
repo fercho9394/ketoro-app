@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Contact snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="sm:p-5 p-10"
+    >
+      <div
+        class="card shadow-sm m-auto sm:w-auto md:w-96 xl:w-96 xl2:w-96 xl3:w-96"
+      >
+        <div
+          class="inline-flex ml-3 mr-2 sm:space-x-0 md:space-x-4 xl:space-x-4 xl2:space-x-4 xl3:space-x-4"
+        >
+          <div
+            class="w-28 text-12 text-bajio80 mt-3 ml-2"
+          >
+             Paso 5 de 5
+          </div>
+          <div
+            class="w-72"
+          >
+            <div
+              class="progress h-2 mt-4 mr-3"
+            >
+              <div
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="25"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%;"
+              />
+            </div>
+          </div>
+        </div>
+        <label
+          class="mt-5 ml-5 text-16 text-left text-primarymeta dark:text-bajio20"
+        >
+          Datos de contacto
+        </label>
+        <div
+          class="flex flex-col p-4"
+        >
+          <div
+            class="mt-7"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                data-shrink="false"
+                for="outlined-basic-cellphone"
+                id="outlined-basic-cellphone-label"
+              >
+                Teléfono celular
+              </label>
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+                maxlength="10"
+                style="font-size: 14px;"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  id="outlined-basic-cellphone"
+                  name="cellphone"
+                  type="number"
+                  value=" "
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legendLabelled-3"
+                  >
+                    <span>
+                      Teléfono celular
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+              
+            </div>
+          </div>
+          <div
+            class="mt-7"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                data-shrink="false"
+                for="outlined-basic-phonehome"
+                id="outlined-basic-phonehome-label"
+              >
+                Teléfono de casa
+              </label>
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+                maxlength="10"
+                style="font-size: 14px;"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  id="outlined-basic-phonehome"
+                  name="phonehome"
+                  type="number"
+                  value=" "
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legendLabelled-3"
+                  >
+                    <span>
+                      Teléfono de casa
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+              
+            </div>
+          </div>
+          <div
+            class="mt-7"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                data-shrink="false"
+                for="outlined-basic-email"
+                id="outlined-basic-email-label"
+              >
+                Correo
+              </label>
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+                style="font-size: 14px;"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  id="outlined-basic-email"
+                  name="email"
+                  type="email"
+                  value=" "
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legendLabelled-3"
+                  >
+                    <span>
+                      Correo
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div />
+        <div
+          class="flex flex-row-reverse justify-between"
+        >
+          <div>
+            <div
+              class="relative h-20 w-32 mr-2"
+            >
+              <div
+                class="absolute bottom-0 right-0 h-16 w-28"
+              >
+                <button
+                  class=" btn button-styles mb-12  text-blanco bg-primarymeta rounded-rbutton text-16 dark:bg-aguascalientes dark:text-negro"
+                >
+                  Siguiente
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="relative h-20 w-28 ml-1 mr-2"
+            >
+              <div
+                class="absolute bottom-0 right-0 h-16 w-24 cursor-pointer"
+              >
+                <button
+                  class="mt-2 mb-12 text-primarymeta rounded-rbutton text-20 font-semibold "
+                >
+                  Atrás
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

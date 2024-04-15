@@ -1,0 +1,84 @@
+{
+  "name": "synco",
+  "homepage": "",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.4",
+    "@loadable/component": "^5.15.2",
+    "@sistemas_metafinanciera/meta-componets-web": "^1.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.1",
+    "browserify-zlib": "^0.2.0",
+    "env-cmd": "^10.1.0",
+    "faker": "5.5.3",
+    "file-saver": "^2.0.5",
+    "graphql": "^14.5.0 || ^15.0.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.43",
+    "net": "^1.0.2",
+    "node-fetch": "^2.6.1",
+    "numero-a-letras": "^1.0.6",
+    "react": "^18.2.0",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^18.2.0",
+    "react-file-viewer": "^0.5.0",
+    "react-measure": "^2.5.2",
+    "react-router": "^5.3.3",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^4.4.1"
+  },
+  "scripts": {
+    "start": "env-cmd -e production react-app-rewired start",
+    "start:development": "env-cmd -e development react-app-rewired start",
+    "start:qa": "env-cmd -e qa react-app-rewired start",
+    "build": "env-cmd -e production react-app-rewired build",
+    "build:development": "env-cmd -e development react-app-rewired build",
+    "build:qa": "env-cmd -e qa react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browser": {
+    "fs": false
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "graphql": "0.11.7"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "assert": "^2.0.0",
+    "autoprefixer": "^10.4.7",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "postcss": "^8.4.14",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.2.4",
+    "url": "^0.11.1"
+  }
+}

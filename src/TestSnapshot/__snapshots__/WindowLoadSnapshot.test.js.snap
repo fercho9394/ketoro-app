@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render WindowLoadMovil snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="bg-blanco p-5"
+    >
+      <h1
+        class="font-bold text-black text-16"
+      >
+        Por favor Espere....
+      </h1>
+      <div
+        class="flex flex-row mt-5"
+      >
+        <div>
+          <div
+            class="spinner-border text-primary-meta"
+            role="status"
+          >
+            <span
+              class="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </div>
+        <div
+          class="font-bold text-12 text-black text-bajio60 mt-2 ml-5"
+        >
+          Cargando...
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
